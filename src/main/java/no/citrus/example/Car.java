@@ -1,6 +1,7 @@
 package no.citrus.example;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Car {
@@ -49,7 +50,10 @@ public class Car {
 	}
 
 	public boolean removeLastWheel() {
-		
+		if(wheels.size() > 0){
+			wheels.remove(wheels.size()-1);
+			return true;
+		}
 		return false;
 	}
 	
