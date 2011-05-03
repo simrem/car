@@ -47,6 +47,11 @@ public class Car {
 		}
 		return moved;
 	}
+
+	public boolean removeLastWheel() {
+		
+		return false;
+	}
 	
 
 }
