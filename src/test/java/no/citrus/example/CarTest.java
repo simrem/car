@@ -33,12 +33,12 @@ public class CarTest {
 		assertThat(moved, equalTo(true));
 	}
 	
-//	@Test
-//	public void car_should_be_able_to_remove_last_added_tyre(){
-//		Car car = new Car("BMW");
-//		boolean result = car.removeLastWheel();
-//		assertThat(result, equalTo(true));
-//	}
+	@Test
+	public void car_should_be_able_to_remove_last_added_tyre(){
+		Car car = new Car("BMW");
+		boolean result = car.removeLastWheel();
+		assertThat(result, equalTo(true));
+	}
 	
 	
 }
