@@ -52,7 +52,7 @@
               <goal>runtest</goal>
             </goals>
             <configuration>
-              <techniqueNumber>0</techniqueNumber>
+              <techniqueNumber>1</techniqueNumber>
               <technique0>
                 <param>1</param>
                 <param>6</param>
@@ -60,7 +60,7 @@
               </technique0>
 	      <citrusTechniqueUrl>http://localhost:8090/testorder/</citrusTechniqueUrl>
 	      <reportUrl>http://localhost:8090/measure/</reportUrl>
-              <skipSendReport>true</skipSendReport>
+              <skipSendReport>false</skipSendReport>
             </configuration>
           </execution>
         </executions>

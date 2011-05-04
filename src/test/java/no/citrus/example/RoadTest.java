@@ -9,6 +9,6 @@ public class RoadTest {
 	@Test
 	public void road_should_have_a_surface(){
 		Road road = new Road("asphalt");
-		assertThat(road.getSurface(), equalTo("asphalt"));
+		assertThat(road.getSurface(), equalTo("asphalt1"));
 	}
 }
