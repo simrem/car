@@ -9,6 +9,6 @@ public class TyreTest {
 	public void tyre_should_be_inflated(){
 		Tyre tyre = new Tyre();
 		boolean inflated = tyre.isInflated();
-		assertThat(inflated, equalTo(true));
+		assertThat(inflated, equalTo(false));
 	}
 }
