@@ -4,6 +4,7 @@ public class Wheel implements WheelInterface{
 
 	private final Tyre tyre;
 
+	//Constructor
 	public Wheel(Tyre tyre){
 		this.tyre = tyre;
 		
