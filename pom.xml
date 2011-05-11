@@ -52,11 +52,10 @@
               <goal>runtest</goal>
             </goals>
             <configuration>
-              <techniqueNumber>4</techniqueNumber>
+              <techniqueNumber>6</techniqueNumber>
               <technique0>
-                <param>1</param>
-                <param>6</param>
-                <param>7</param>
+                <param>9</param>
+                <param>10</param>
               </technique0>
 	      <citrusTechniqueUrl>http://localhost:8090/testorder/</citrusTechniqueUrl>
 	      <reportUrl>http://localhost:8090/measure/</reportUrl>
